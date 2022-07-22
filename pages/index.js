@@ -1,9 +1,13 @@
 import React from 'react'
+import { client } from '../lib/client';
 import { Product, FooterBanner, HeroBanner } from '../components';
+
  const Home = () => {
   return (
     <>
-      HeroBanner
+     <HeroBanner />
+
+     
       <div className="products-heading">
         <h2>Best Selling products</h2>
         <p>Speakers of many variations</p>
@@ -13,7 +17,7 @@ import { Product, FooterBanner, HeroBanner } from '../components';
           (product) => product)}
       </div>
 
-      Footer
+      <FooterBanner/>
     </>
   )
 }
