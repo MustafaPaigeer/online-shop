@@ -1,12 +1,12 @@
 import Stripe from 'stripe';
 
-const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 export default async function handler(req, res) {
   if (req.method === 'POST') {
     try {
       const params = {
-        submitf_pay:'pay',
+        submit_type:'pay',
         mode: 'payment',
         payment_method_types: ['card'],
         billing_address_collection: 'auto',
@@ -20,7 +20,7 @@ export default async function handler(req, res) {
           const newImage = img.replace('image-', 'https://cdn.sanity.io/images/1tunb3mo/production/').replace('-webp', '.webp');
           return {
             price_data: { 
-              currency: 'usd',
+              currency: 'cad',
               product_data: { 
                 name: item.name,
                 images: [newImage],
