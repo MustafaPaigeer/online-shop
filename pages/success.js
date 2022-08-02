@@ -4,10 +4,12 @@ import { BsBagCheckFill } from 'react-icons/bs';
 import { useRouter } from 'next/router';
 
 import { useStateContext } from '../context/StateContext';
+import { runFireworks } from '../lib/utils';
 
 const Success = () => {
   const { setCartItems, setTotalPrice, setTotalQuantities } = useStateContext();
   const [order, setOrder] = useState(null);
+
 
   return (
     <div className="success-wrapper">
