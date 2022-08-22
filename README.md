@@ -1,34 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Online Shop
 
-## Getting Started
+E-commerce application includes modern design and animations, the ability to add and edit products on the go using a Sanity, all advanced cart, and checkout functionalities, and most importantly, the complete integration with Stripe so that you can cover real payments.
 
-First, run the development server:
+App is based on React and NextJS, Sanity for content management and Stripe API is used for checkout.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features:
+- Browse products
+- Go to product details page
+- Add Products to Cart
+- Checkout with Stripe
+- Add new products with Sanity
+- Edit / delete the existing products using Sanity
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+!["Home Page"](https://github.com/MustafaPaigeer/videoSharingApp/blob/master/client/public/screenshots/1.png)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+**Video**: Watch video.
+!["Video Page"](https://github.com/MustafaPaigeer/videoSharingApp/blob/master/client/public/screenshots/2.png)
 
-## Learn More
+- **Search**: Search Video.
+  !["Search Video"](https://github.com/MustafaPaigeer/videoSharingApp/blob/master/client/public/screenshots/3.png)
 
-To learn more about Next.js, take a look at the following resources:
+- **Upload Video**: Upload a video
+  !["upload a video"](https://github.com/MustafaPaigeer/videoSharingApp/blob/master/client/public/screenshots/4.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Light mode**: Switch to light mode.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+!["Light mode"](https://github.com/MustafaPaigeer/videoSharingApp/blob/master/client/public/screenshots/5.png)
 
-## Deploy on Vercel
+## Dependencies:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- babel/core ^7.17.9
+- sanity/client ^3.2.0
+- sanity/image-url ^1.0.1
+- stripe/stripe-js ^1.25.0
+- canvas-confetti ^1.5.1
+- next 12.1.0
+- next-sanity-image ^3.2.1
+- react 17.0.2
+- react-dom 17.0.2
+- react-hot-toast ^2.2.0
+- react-icons ^4.3.1
+- stripe ^8.209.0
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Deployment:
+Nelify:
+[Ecommerce]()
+
+
