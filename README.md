@@ -47,7 +47,5 @@ App is based on React and NextJS, Sanity for content management and Stripe API i
 
 
 ## Deployment:
-Nelify:
-[Ecommerce]()
-
-
+VERCEL:
+[Ecommerce](https://online-shop-vert.vercel.app/)
