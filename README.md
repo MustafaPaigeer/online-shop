@@ -23,7 +23,7 @@ App is based on React and NextJS, Sanity for content management and Stripe API i
   !["Search Video"](https://github.com/MustafaPaigeer/online-shop/blob/master/public/screenshots/4.png)
 
 - **Tablet View**: Tablet View
-  !["Tablet View"](https://github.com/MustafaPaigeer/online-shop/blob/master/public/screenshots/2.png)
+  !["Tablet View"](https://github.com/MustafaPaigeer/online-shop/blob/master/public/screenshots/3.png)
 
 - **Checkout**: Checkout
 
