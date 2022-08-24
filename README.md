@@ -16,18 +16,19 @@ App is based on React and NextJS, Sanity for content management and Stripe API i
 
 !["Home Page"](https://github.com/MustafaPaigeer/online-shop/blob/master/public/screenshots/1.png)
 
-**Video**: Watch video.
-!["Video Page"](https://github.com/MustafaPaigeer/videoSharingApp/blob/master/client/public/screenshots/2.png)
+**Product**: Product Details page
+!["Product Page"](https://github.com/MustafaPaigeer/online-shop/blob/master/public/screenshots/2.png)
 
-- **Search**: Search Video.
-  !["Search Video"](https://github.com/MustafaPaigeer/videoSharingApp/blob/master/client/public/screenshots/3.png)
+- **Mobile View**: Mobile
+  !["Search Video"](https://github.com/MustafaPaigeer/online-shop/blob/master/public/screenshots/4.png)
 
-- **Upload Video**: Upload a video
-  !["upload a video"](https://github.com/MustafaPaigeer/videoSharingApp/blob/master/client/public/screenshots/4.png)
+- **Tablet View**: Tablet View
+  !["Tablet View"](https://github.com/MustafaPaigeer/online-shop/blob/master/public/screenshots/2.png)
 
-- **Light mode**: Switch to light mode.
+- **Checkout**: Checkout
 
-!["Light mode"](https://github.com/MustafaPaigeer/videoSharingApp/blob/master/client/public/screenshots/5.png)
+!["Checkout"](https://github.com/MustafaPaigeer/online-shop/blob/master/public/screenshots/5.png)
+!["Checkout"](https://github.com/MustafaPaigeer/online-shop/blob/master/public/screenshots/6.png)
 
 ## Dependencies:
 
