@@ -14,7 +14,7 @@ App is based on React and NextJS, Sanity for content management and Stripe API i
 - Edit / delete the existing products using Sanity
 
 
-!["Home Page"](https://github.com/MustafaPaigeer/videoSharingApp/blob/master/client/public/screenshots/1.png)
+!["Home Page"](https://github.com/MustafaPaigeer/online-shop/blob/master/public/screenshots/1.png)
 
 **Video**: Watch video.
 !["Video Page"](https://github.com/MustafaPaigeer/videoSharingApp/blob/master/client/public/screenshots/2.png)
